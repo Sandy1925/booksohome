@@ -1,0 +1,159 @@
+
+
+.box{
+    margin-top:20px;
+   
+   justify-content: center;
+    text-align: left;
+    gap: 20px 100px;
+ 
+}
+.book{
+    width:300px;
+    box-shadow:0 0 20px gray;
+    padding-left:20px;
+    padding-top:20px;
+   padding-bottom:20px;
+    height:600px;
+    margin-bottom:25px;
+    border-radius: 20px;  
+}
+
+.container{
+margin-left:35px;
+
+}
+.search-box{
+    margin-top:100px;
+    width:80%;
+    margin-left:115px;
+}
+
+img{
+    width:200px;
+    height:250px;
+    object-fit: contain;
+   margin-left:30px;
+   margin-bottom:15px;
+}
+
+
+
+
+
+.cartbtn{
+    background-color: white;
+    color:#065AD8;
+    border:2px solid #065AD8;
+    
+}
+
+.cartbtn:hover,.cartbtn:focus{
+    background-color: #065AD8;
+    color:white;
+    border:2px solid white;
+    
+}
+
+.buybtn,.buybtn:hover,.buybtn:focus{
+    background-color: #065AD8;
+    color:white;
+    margin-top:20px;
+}
+
+.buybtn:hover,.buybtn:focus{
+    transform: scaleZ(1.1);
+}
+
+.buttons{
+    padding-top:20px;
+
+}
+
+.cartbtn,.buybtn{
+    text-align: center;
+    margin-left:5px;
+    width:90%;
+}
+
+.custom-dialog-container, .mat-dialog-container{
+    margin-top: 0px;
+    padding:0px;
+}
+
+body.mat-typography{
+    display: none;
+}
+
+.title{
+    font-size:20px;
+    overflow: hidden;
+    width:230px;
+    text-overflow: ellipsis;
+    height:20px;
+    white-space: nowrap;
+    
+}
+
+.content{
+    margin-left:10px;
+    
+}
+.price{
+    max-width: 300px;;
+}
+
+.mat-btn{
+    background-color: #065AD8;
+    color:white;
+    border-radius: 20px;
+}
+.mat-cnt{
+    border-radius:25px;
+}
+.mat-p{
+    color:#065AD8;
+}
+
+.like-btn{
+    margin-right:30px;
+    fill: white;
+    cursor: pointer;
+    float:right;
+
+}
+.like-btn:hover,.like-btn:focus{
+transform: scale(1.5);
+color:#b31b37;
+
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 100,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 32
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+
+}
+
+.qtybox{
+    width:25px;
+    height:20px;
+    margin-left:7px;
+    margin-right:7px;
+    text-align: center;
+}
+.decrease,.increase{
+    color:#065AD8;
+    font-size: 25px;
+    cursor:pointer;
+}

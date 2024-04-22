@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Roboto:wght@500&display=swap');
+
+.navbar{
+    background-color: #065AD8
+    ;
+    position:fixed;
+    top:0;
+    width:100%;
+    
+}
+
+.links{
+    font-size: 20px;
+    color:white;
+}
+
+.nav-item,.d-flex{
+    margin-left:80px;
+    color:white;
+}
+
+
+.logo{
+    font-size:40px;
+    color:white;
+    margin-right:90px;
+    margin-left:20px;
+}
+a{
+    color:white;
+}
+
+.profile{
+    margin-top:15px;
+}

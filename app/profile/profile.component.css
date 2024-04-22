@@ -1,0 +1,39 @@
+p{
+    margin-top:100px;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+.name{
+margin-left:30px;
+color:white;
+height:100px;
+padding-top:20px;
+border-top-left-radius:20px;
+border-top-right-radius:20px;
+background-image:linear-gradient(to bottom right, #190482,#7752FE,#8E8FFA,#C2D9FF);
+}
+
+.contact,.email{
+    text-align: center;
+}
+
+.box{
+    box-shadow:0 0 20px gray;
+    text-align:center;
+    border-radius:20px;
+  color:#065AD8 ;
+}
+.labels{
+    margin-left:50px;
+    margin-top:30px;
+}
+
